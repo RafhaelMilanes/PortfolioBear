@@ -35,14 +35,14 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-          I'm building{" "}
+        Unindo design, código, criando projetos únicos.{" "}
           <Link
             target="_blank"
-            href="https://unkey.dev"
+            href="https://www.instagram.com/beardesign.oficial/"
             className="underline duration-500 hover:text-zinc-300"
           >
             @BearDesign
-          </Link> to solve API authentication and authorization for developers.
+          </Link> 
         </h2>
       </div>
     </div>
