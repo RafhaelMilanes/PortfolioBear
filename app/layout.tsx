@@ -9,13 +9,13 @@ export const metadata: Metadata = {
     default: "BearDesign.com",
     template: "%s | ",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Explore o design, inspire-se, crie!",
   openGraph: {
     title: "BearDesign.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "Explore o design, inspire-se, crie!",
     url: "",
-    siteName: "chronark.com",
+    siteName: "Bear Design",
     images: [
       {
         url: "",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Bear",
     card: "summary_large_image",
   },
   icons: {

@@ -23,20 +23,15 @@ const socials = [
 		label: "Github",
 		handle: "RafhaelMilanes",
 	},
-	{
-		icon: <Linkedin size={20} />,
-		href: "https://www.linkedin.com/in/rafhael-milan%C3%AAs-8949b224b/",
-		label: "Linkdin",
-		handle: "Rafhael",
-	},
+
 ];
 
 export default function Example() {
 	return (
-		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+		<div className=" items-center bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
 			<Navigation />
 			<div className="grid flex items-center justify-center min-h-screen px-4 mx-auto">
-				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-90 sm:mt-90 sm:grid-cols-4 lg:gap-16">
+				<div className="grid w-full  grid-cols-1 gap-8 mx-auto mt-90 sm:mt-90 sm:grid-cols-3 lg:gap-16">
 					{socials.map((s) => (
 						<Card>
 							<Link
@@ -55,7 +50,7 @@ export default function Example() {
 									<span className="lg:text-sm font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
 										{s.handle}
 									</span>
-									<span className=" text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
+									<span className="  text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
 										{s.label}
 									</span>
 								</div>
