@@ -1,46 +1,23 @@
 ---
-title: Vercel Terraform Provider
-description: A Terraform provider for Vercel. It has been deprecated it when Vercel rolled out their official provider.
+title: Aplicações Gráficas
+description: Aplicações de artes gráficas Institucionais 
 date: "2021-03-16"
-repository: chronark/terraform-provider-vercel
-url: https://registry.terraform.io/providers/chronark/vercel/latest
-published: false
+repository: 
+url: https://www.sagradoeducacao.com.br/corjesu
+published: true
 ---
 
+![Captura de tela 2024-02-10 230741](https://github.com/RafhaelMilanes/PortfolioBear/assets/127360190/dc63b2ce-335b-42b8-8f4b-ae1972647c69)
 
 
-Back in the day when Vercel didn't have an official Terraform provider, I wrote one. 
-I needed to manage my Vercel projects and especially sync environment variables from different cloud providers.
-Terraform was great to provision some postgres databases on digital ocean, but there was no way to sync the credentials with Vercel.
+Criação de artes gráficas para aplicação ao longo do ano, visando aprimorar o impacto da marca em cada interação. Nossa abordagem meticulosa e criativa visa não apenas destacar visualmente a identidade da marca, mas também estabelecer uma conexão emocional duradoura com o público-alvo. Desde campanhas sazonais até conteúdo regular nas redes sociais, cada peça é cuidadosamente planejada e executada para transmitir a mensagem certa, no momento certo. Combinando design inovador, narrativa envolvente e uma compreensão profunda dos valores da marca, estamos comprometidos em elevar a presença e o reconhecimento da sua marca em todas as plataformas e ao longo de todo o ano. Junte-se a nós nesta jornada de transformação visual e prepare-se para ver sua marca brilhar como nunca antes.
 
-```hcl
-terraform {
-  required_providers {
-    vercel = {
-      source  = "registry.terraform.io/chronark/vercel"
-      version = ">=0.10.3"
-    }
-  }
-}
+![Captura de tela 2024-02-10 230627](https://github.com/RafhaelMilanes/PortfolioBear/assets/127360190/be730784-c323-458a-9e20-5881c649ca7d)
 
-provider "vercel" {
-  token = "<YOUR_TOKEN>"
-}
+![Captura de tela 2024-02-10 230655](https://github.com/RafhaelMilanes/PortfolioBear/assets/127360190/23869855-b741-49b6-bb4b-82614cbcc36c)
 
-resource "vercel_project" "my_project" {
-  name = "project-via-terraform"
-  git_repository {
-    type = "github"
-    repo = "chronark/terraform-provider-vercel"
-  }
-}
-```
+![Captura de tela 2024-02-10 230338](https://github.com/RafhaelMilanes/PortfolioBear/assets/127360190/5fed93f4-c9f4-474d-8995-dcf618d89b5e)
 
-It was a fun project and I learned a lot about Terraform and Vercel's API. 
-It gave me the opportunity to contribute to the Terraform ecosystem and my appreciation for the work that the Terraform team does is immense.
+![Captura de tela 2024-02-10 230543](https://github.com/RafhaelMilanes/PortfolioBear/assets/127360190/423ea3f2-18c3-4096-a10c-d5c249006ad5)
 
-There have been quite a few individuals and teams that have used this provider and I am happy that it has been useful to you.
-
-Now that Vercel have stepped in, I have decided to [deprecate](https://twitter.com/chronark_/status/1517759708983177218) this one on April 23rd 2022. 
-
-Please use the [official provider](https://registry.terraform.io/providers/vercel/vercel/latest) instead.
+![Captura de tela 2024-02-10 230825](https://github.com/RafhaelMilanes/PortfolioBear/assets/127360190/958fc05e-f516-47eb-89a1-a17afb86d848)
