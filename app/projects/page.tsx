@@ -51,6 +51,9 @@ export default async function ProjectsPage() {
         </div>
         <div className="w-full h-px bg-zinc-800" />
 
+        <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+            Projects
+          </h2>
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
           <Card>
             <Link href={`/projects/${featured.slug}`}>
@@ -102,7 +105,9 @@ export default async function ProjectsPage() {
           </div>
         </div>
         <div className="hidden w-full h-px md:block bg-zinc-800" />
-
+        <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+            Projects
+          </h2>
         <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-3">
           <div className="grid grid-cols-1 gap-4">
             {sorted
