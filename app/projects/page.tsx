@@ -37,7 +37,7 @@ export default function ProjectsPage() {
             Projects
           </h2>
           <p className="mt-4 text-zinc-400">
-            Alguns projetos de rir, outros para chorar.
+            Alguns dos principais projetos já desenvolvidos.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
